@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
+    <script src="script.js"></script>
+
     <div class= "image">
-        <div class="logo"></div>
-        <div class="text"></div>
+        <img src="LeafPhoto.avif" alt="Photo of Green Leaves">
+
+        <div class="logo">
+            <img src="odin-lined.png" alt="Odin Project Logo">
+            <p>ODIN</p>
+        </div>
+
+        <div class="credit">
+            Photo By
+            <a href="https://unsplash.com/@haliewestphoto"> Halie West</a> 
+            On 
+            <a href="https://unsplash.com/"> Unsplash </a></div>
     </div>
 
     <div class= "form">
-        <div class= "paragrah"></div>
+        <div class= "paragrah">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing elit quisque faucibus ex sapien vitae. Ex sapien vitae pellentesque sem placerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis tempus leo eu aenean.
+        </div>
+
         <div class="SignUp">
+
+            <div class="text">Sign Up</div>
+
             <fieldset>
                 <form action="#" method="get">
                     <label for="first_name">FIRST NAME</label>
@@ -23,9 +43,9 @@
                     <label for="last_name">LAST NAME</label>
                     <input type="text" id="last_name" name="last_name">
                 </form>
-              </fieldset>  
+            </fieldset>  
               
-              <fieldset>
+            <fieldset>
                 <form action="#" method="get">
                     <label for="user_email">EMAIL</label>
                     <input type="email" id="user_email" name="user_email" required>
@@ -33,24 +53,24 @@
                     <label for="phone_number">PHONE NUMBER</label>
                     <input type="text" id="phone_number" name="phone_number">
                 </form>
-              </fieldset>
+            </fieldset>
 
-              <fieldset> 
+            <fieldset> 
                 <form action="#" method="get">
                     <label for="user_password">PASSWORD</label>
                     <input type="password" id="user_password" name="user_password" required>
 
-                    <label for="user_email">EMAIL</label>
+                    <label for="user_email">CONFIRM PASSWORD</label>
                     <input type="email" id="user_email" name="user_email" required>
                 </form>
-              </fieldset>
-        </div>
-    </div>
+            </fieldset>
 
-    <button type="submit">Create Account</button>
-    
-    <div>
-        <p>Already Have an Account? <a href="url">Log in</a></p>
+            <button type="submit">Create Account</button>
+
+            <div>
+                <p>Already Have an Account? <a href="url">Log in</a></p>
+            </div>
+        </div>
     </div>
 </body>
 
