@@ -27,10 +27,15 @@ div{
 
 .form{
     flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    background-color: #E5E7EB;
 }
 
 .SignUp{
     flex-direction: column;
+    padding: 10px;
 }
 
 .logo{
@@ -65,3 +70,20 @@ div{
     padding: 0px;
 }
 
+.SignUp{
+    gap: 10px;
+    background-color: white;
+}
+
+fieldset{
+    border: none;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    border: none;
+    padding: 5px;
+}
